@@ -170,7 +170,7 @@ if __name__ == '__main__':
     state_index_queue = []
 
     # strategy choice
-    print("Select algorithm. Type '0' for Uniform Cost Search, Type '1' for the Misplaced TileHeuristic, or type '2' the Manhattan Distance Heuristi")
+    print("Select algorithm. Type '0' for Uniform Cost Search, Type '1' for the Misplaced Tile Heuristic, or type '2' the Manhattan Distance Heuristic:")
     strategy_num = int(input())
     if strategy_num == 0:
         curr_strategy = uniform_cost_serch
